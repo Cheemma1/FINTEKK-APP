@@ -1,0 +1,344 @@
+@media screen and (max-width:1115px) {
+header{
+   height:100% ; 
+}
+nav{
+    padding: 1rem 2rem;
+}
+.navlink ul{
+    gap: 1rem;
+    font-size: 1rem;
+}
+.hero-txt{
+    width: 100%;
+}
+.hero{
+    padding: 5rem 2rem;
+}
+.hero-txt h1{
+font-size: 2.5rem;
+line-height: 1.4;
+}
+.hero-txt p{
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+.hero-btn button{
+    width: 60%;
+}
+.signup-btn a{
+    padding: 0.6rem;
+    font-size: 0.9rem;
+}
+.logos{
+    padding: 2rem ;
+}
+.text{
+    width: 70%;
+}
+.offer-sec{
+    padding: 2rem;
+}
+.offer-flex{
+  flex-direction: column;  
+  width: 100%;
+  gap: 3rem;
+}
+.offer-flex1, .offer-flex2{
+    width: 80%;
+}
+.offer-flex p{
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+.start-sec, .rev-sec{
+    padding: 3rem 2rem;
+}
+.simple{
+    margin: 0;
+}
+.simple-flex img{
+    width: 60%;
+}
+.rev-txt h3{
+    width: 100%;
+    font-size: 2.3rem;
+}
+.rev-container, .news h1{
+    width: 60%;
+}
+.news{
+    width: 80%;
+}
+footer{
+    padding:3rem 2rem 1rem 2rem ;
+}
+.footer-mobile{
+    display: none;
+}
+
+}
+
+
+@media screen and (max-width:768px){
+ header{
+    height: 100%;
+ }   
+
+nav{
+    padding: 1rem;
+}
+.navlink{
+     width: 300px;
+    height: 100vh;
+    text-align: center;
+    top: 0;
+    left: -300px;
+    position: absolute;
+    overflow: hidden;
+    background-color: #2E5CFF;
+    z-index: 2;
+}
+
+.navlink ul {
+    display: block;
+    margin: 2rem auto;
+
+}
+.navlink li a{
+    color: #FFFFFF;
+}
+.menu li{
+    padding: 2rem 0;
+}
+
+#close-menu{
+    display: block;
+    color:#FFFFFF;
+    font-size: 1.5rem;
+    top: 0;
+    text-align: right;
+    margin: 2rem 2rem;
+}
+#open-menu{
+display: block;
+    color: #2E5CFF;
+    font-size: 1.2rem;
+}
+.nav-signup{
+    padding: 0 1rem;
+    margin: auto;
+    flex-direction: column;
+}
+
+.navlink li a:hover{
+    color: #171717;
+}
+.nav-signup li a{
+    width: 100%;
+    border: 1px solid #FFFFFF;
+    background: transparent;
+    padding: 1rem 3rem;
+    border-radius:16px ;
+}
+.login-btn, .signup-btn{
+   background: transparent;
+   font-size: 1rem;
+}
+
+.hero{
+    flex-direction: column;
+    text-align: center;
+}
+.hero-txt, .hero img{
+    width: 100%;
+}
+.hero-txt h1{
+    font-size: 2.5rem;
+    line-height: 50px;
+}
+.hero-txt p{
+    font-size: 1.1rem;
+    line-height: 30px;
+}
+.hero-btn{
+    flex-direction: column;
+}
+.hero-btn button{
+    width: 70%;
+}
+.hero-btn img{
+    width: 60%;
+
+}
+.logos{
+padding: 2rem 1rem;
+    display: flex;
+    overflow-x: auto;
+    margin: auto;
+}
+.logos::-webkit-scrollbar{
+    width: 0;
+}
+
+.logo-img{
+    gap: 1rem;
+}
+.text{
+    width: 100%;
+    padding: 2rem 0;
+}
+.offer-sec{
+    padding: 3rem 1rem;
+}
+.offer-sec h2{
+    font-size: 1,6rem;
+}
+.offer-sec-txt .p1{
+    font-size: 1,8rem;
+}
+.offer-flex{
+    flex-direction: column;
+    gap: 3rem;
+    width: 100%;
+}
+.offer-flex2, .offer-flex1{
+    width: 100%;
+}
+.offer-sec-txt .p2{
+  line-height: 1.7; 
+  font-size: 1.1rem; 
+}
+.offer-flex p{
+   line-height: 1.7;
+   font-size: 1rem; 
+}
+
+.start-sec{
+    padding: 3rem 1rem;
+}
+
+.simple-flex{
+    grid-template-columns: repeat(1,1fr);
+}
+.simple-flex img{
+    width: 50%;
+}
+.simple{
+    margin:2rem 0;
+}
+.simple h1{
+    text-align: center;
+    line-height: 1.6;
+}
+
+.desk-btn{
+    display: none;
+}
+.mob-btn{
+display: block;
+width: 70%;
+}
+.list h4{
+    line-height: 1.5;
+}
+
+.list p{
+    padding-bottom: 4rem;
+    line-height: 1.6;
+}
+.faq-sec{
+    flex-direction: column;
+}
+.faq-sec img{
+    width: 100%;
+    height: 100%;
+    order: -1;
+}
+
+.question-title{
+   font-size: 1rem;
+}
+.rev-sec {
+padding: 1rem;
+flex-direction: column;
+text-align: center;
+}
+.rev-txt p{
+    text-align: center;
+    line-height: 1.5;
+}
+.rev-txt h3{
+    width: 100%;
+    font-size: 2rem;
+
+}
+.form,
+ .rev-container,
+ .news h1,
+.question-cont,
+.offer-sec-txt .p2 {
+  width: 100%;
+}
+.news{
+    width:90%;
+    height: 330px;
+    text-align: left;
+    margin: 1rem auto;
+}
+.news h1{
+    line-height: 1.5;
+}
+.form-flex{
+    width: 100%;
+    height: 50px;
+    margin: 1rem 0;
+}
+.form button {
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: 16px;
+    padding: 1rem;
+    color: #172E80;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+#submit2{
+    width: 40%;
+    display: block;
+    margin-top: 0.6rem;
+}
+#submit1{
+    display: none;
+}
+footer{
+    padding: 1rem 1rem 1rem 1rem;
+}
+.footer-cont{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.footer-p{
+    display: none;
+}
+.footer-mobile{
+    display: block;
+    padding: 1rem 0;
+}
+.footer-mobile h1{
+    color:#172E80;
+}
+.footer-mobile p{
+    line-height: 28px;
+   color: #777777;  
+}
+.footer-desk{
+    display: none;
+}
+.footer-list{
+    margin: 0;
+    line-height: 19px;
+}
+
+}
