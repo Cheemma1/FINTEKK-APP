@@ -154,7 +154,7 @@ display: block;
     flex-direction: column;
     text-align: center;
 }
-.hero-txt, .hero img{
+.hero-txt{
     width: 100%;
 }
 .hero-txt h1{
@@ -177,7 +177,8 @@ display: block;
 
 }
   .hero img{
-    margin-top:1rem;
+    margin-top:1.5rem;
+    width:100%;
   }
 .logos{
 padding: 2rem 1rem;
