@@ -173,9 +173,12 @@ display: block;
 }
 .hero-btn img{
     width: 60%;
-   margin-top:1rem; 
+  
 
 }
+  .hero img{
+    margin-top:1rem;
+  }
 .logos{
 padding: 2rem 1rem;
     display: flex;
