@@ -1,6 +1,10 @@
 @media (max-width:1025px) {
-header{
+body{
+  width:100%; 
+   }
+   header{
    height:100% ; 
+   width:100%;
 }
 nav{
     padding: 1rem 2rem;
@@ -169,6 +173,7 @@ display: block;
 }
 .hero-btn img{
     width: 60%;
+   margin-top:1rem; 
 
 }
 .logos{
